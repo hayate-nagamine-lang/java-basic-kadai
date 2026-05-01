@@ -7,7 +7,7 @@ public class CarExec_Chapter {
 		// TODO 自動生成されたメソッド・スタブ
 
 	// 車クラスのインスタンスの作成
-		Car_Chapter15 myCar = new Car_Chapter15();
+		Car_Chapter myCar = new Car_Chapter();
 		
 		//車クラスのchangeGearメソッドを実行する
 		myCar.changeGear  (3);
