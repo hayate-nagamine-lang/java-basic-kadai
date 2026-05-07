@@ -1,0 +1,21 @@
+package kadai_021;
+
+public class DictionaryExec_Chapter21 {
+
+	public static void main(String[] args) {
+		
+		//辞書クラスのインスタンスを作成する
+		Dictionary_Chapter21 dict = new Dictionary_Chapter21();
+		
+		//調べる英単語を配列にセットする
+		dict.addWord();
+		
+		String[]searchWords = {"apple","banana","grape","orange"};
+		
+		
+		//検索する
+		for (String s : searchWords) {
+			dict.searchWord(s);
+		}
+	}
+}
